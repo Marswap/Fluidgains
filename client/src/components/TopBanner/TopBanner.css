@@ -1,0 +1,31 @@
+.top-banner-background {
+  background-color: black;
+  height: 100%;
+}
+.top-banner-heading {
+  padding-top: 15vh;
+}
+.top-banner-font {
+  color: white;
+  font-size: 70px;
+}
+.custom-shape-divider-bottom-1661019298 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1661019298 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 193px;
+}
+
+.custom-shape-divider-bottom-1661019298 .shape-fill {
+    fill: #FFFFFF;
+}
