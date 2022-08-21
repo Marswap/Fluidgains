@@ -1,7 +1,7 @@
 .style-padding {
 
 
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
 
   /* Curved corners */
   border-top-left-radius: 20% 100%;
@@ -79,6 +79,9 @@ ul li {
 .Social_icon {
   width: 42px;
   height: 42px;
+  /*background-color: white;*/
+  border-radius: 27%;
+
 }
 
 .social-links {
@@ -91,5 +94,5 @@ ul li {
   justify-content: space-between;
   padding-left: 200px;
   padding-right: 200px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
 }
