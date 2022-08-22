@@ -48,7 +48,7 @@ const Footer = () => {
 
 
                 </div>
-                <div className="social-links" >
+                    <div className="social-links" >
                     <a href="#">
                         <img className="Social_icon" src={twit_icon} alt="Twitter Link" />
                     </a>

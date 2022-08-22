@@ -12,6 +12,7 @@
 
 .left-logo-hidden-box {
   background-color: rgba(0, 0, 0, 1);
+
 }
 
 
@@ -45,6 +46,7 @@ ul li {
   .footer-logo-l {
     display: block;
 
+
   }
 }
 
@@ -65,6 +67,7 @@ ul li {
   width: auto;
   /* height: 400px; */
   align-content: space-between;
+  position: relative;
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
@@ -72,6 +75,12 @@ ul li {
   background: black;
   color: rgb(255, 255, 255);
 
+
+}
+
+.left-logo-hidden-box{
+  display: flex;
+justify-content: center;
 }
 
 /* Social Icon */
@@ -94,5 +103,6 @@ ul li {
   justify-content: space-between;
   padding-left: 200px;
   padding-right: 200px;
+  padding-bottom: 15px;
   background-color: rgba(0, 0, 0, 1);
 }
