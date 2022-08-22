@@ -1,0 +1,55 @@
+.about-para {
+	font-size: 16px;
+	text-align: justify;
+	text-justify: inter-word;
+	padding-bottom: 4rem;
+}
+
+.container {
+	padding-top: 7rem;
+
+}
+
+.text-center {
+	padding-bottom: 4rem;
+}
+
+/* card css */
+.main-box {
+
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3.2rem 3.2rem;
+	gap: 7rem;
+	justify-content: center;
+}
+
+.member-card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 25rem;
+	width: 21rem;
+	align-items: center;
+
+}
+
+.Avatar-box {}
+
+.display-img {
+
+	border-radius: 50%;
+	height: 15rem;
+	width: 15rem;
+	align-self: center;
+}
+
+.Avatar-name {}
+
+.Avatar-role {}
+
+.Avatar-social-links {
+	display: flex;
+	gap: 1.5rem;
+
+}
