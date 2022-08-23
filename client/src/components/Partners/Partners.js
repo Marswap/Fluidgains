@@ -3,8 +3,8 @@ import "./Partners.css";
 const Partners = () => {
   return (
     <div>
-      <div className="container">
-        <div className="row py-3">
+      <div className="container pt-0">
+        <div className="row pb-3">
           <div className="col-12 mt-5">
             <h1 className="text-center">Partners</h1>
           </div>
