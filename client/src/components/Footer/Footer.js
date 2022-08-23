@@ -49,20 +49,17 @@ const Footer = () => {
 
                 </div>
                     <div className="social-links" >
-                    <a href="#">
+                    <a href="https://twitter.com/fluidgains"> 
                         <img className="Social_icon" src={twit_icon} alt="Twitter Link" />
                     </a>
-                    <a href="#">
+                    <a href="https://t.me/fluidgains">
                         <img className="Social_icon" src={telgm_icon} alt="Telegram Link" />
                     </a>
-                    <a href="#">
+                    <a href="https://discord.com/invite/5F6DHU3gw9">
                         <img className="Social_icon" src={discord_icon} alt="Discord Link" />
                     </a>
 
-                    <a href="#">
-                        <img className="Social_icon" src={insta_icon} alt="Instagram Link" />
-                    </a>
-                    <a href="#">
+                    <a href="https://github.com/Marswap/Fluidgains">
                         <img className="Social_icon" src={git_icon} alt="Github Link" />
                     </a>
 

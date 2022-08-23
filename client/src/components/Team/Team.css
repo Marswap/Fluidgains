@@ -44,7 +44,9 @@
 	align-self: center;
 }
 
-.Avatar-name {}
+.Avatar-name {
+	padding-top: 1rem;
+}
 
 .Avatar-role {}
 
