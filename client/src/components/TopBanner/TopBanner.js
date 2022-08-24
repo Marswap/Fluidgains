@@ -4,15 +4,15 @@ import "./TopBanner.css";
 const TopBanner = () => {
   return (
     <div className="top-banner-background" id="#home">
-      <div className="container">
+      <div className="container pt-0">
         <div className="row">
           <div className="col-md-12 col-lg-6">
             <h1 className="top-banner-heading top-banner-font">
-              Discover the future
-              <br />
-              of decentralized
-              <br /> finance
-              <br />
+              Privacy-centric defi asset allocation and multichain yield
+              optimizer protocol enabling you to boost defi yields based on your
+              risk & return profile and Sharpe ratios chosen by yourself.
+              Fluidgains is immune to MEV mining bots attempting to steal money
+              by frontrunning and backrunning transactions.
             </h1>
           </div>
           <div className="col-md-12 col-lg-6">
