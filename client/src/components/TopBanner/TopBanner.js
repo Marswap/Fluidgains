@@ -14,7 +14,7 @@ const TopBanner = () => {
               Fluidgains is immune to MEV mining bots attempting to steal money
               by frontrunning and backrunning transactions.
             </h1>
-            <a className="btn btn-danger mt-3" style={{ width: "200px" }}>
+            <a className="btn btn-danger mt-3" style={{ width: "200px" }} href>
               See App
             </a>
           </div>
