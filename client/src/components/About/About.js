@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container" id="about">
         <div className="row">
           <div className="col-12">
             <h1 className="text-center">What is a Vault in DeFi?</h1>

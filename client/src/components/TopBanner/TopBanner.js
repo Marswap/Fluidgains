@@ -3,7 +3,7 @@ import banner from "../../assets/img/top-banner.png";
 import "./TopBanner.css";
 const TopBanner = () => {
   return (
-    <div className="top-banner-background">
+    <div className="top-banner-background" id="#home">
       <div className="container">
         <div className="row">
           <div className="col-md-12 col-lg-6">

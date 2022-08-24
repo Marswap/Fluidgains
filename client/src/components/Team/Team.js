@@ -12,7 +12,7 @@ import linkedIn_icon from "../../assets/icon/icon-linkedin.svg";
 const Team = () => {
     return (
         <>
-            <div className="container">
+            <div className="container" id="team">
                 <div className="row">
                     <div className="col-12">
                         <h1 className="text-center">Meet The Team</h1>
