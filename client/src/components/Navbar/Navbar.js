@@ -38,7 +38,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" aria-current="page" href>
+                <a class="nav-link" aria-current="page" href="/#contact">
                   Contact
                 </a>
               </li>
