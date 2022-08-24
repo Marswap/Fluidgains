@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/img/logo.png";
 import "./Navbar.css";
+import Modal from "./form";
 const Navbar = () => {
+
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <div>
       <nav class="navbar navbar-expand-lg">
@@ -65,7 +69,14 @@ const Navbar = () => {
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
                 <a class="btn glow-on-hover" aria-current="page" href>
-                  Early Access
+                  <button onClick={() => {
+          setModalOpen(true);
+        }}
+      >
+        Early access
+      </button>
+
+      {modalOpen && <Modal setOpenModal={setModalOpen} />}
                 </a>
               </li>
             </ul>
