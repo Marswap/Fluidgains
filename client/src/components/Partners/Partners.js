@@ -1,4 +1,11 @@
 import React from "react";
+import aurora from "../../assets/partners/aurora.png";
+import eth from "../../assets/partners/eth.png";
+import protocal from "../../assets/partners/protocal.png";
+import algo from "../../assets/partners/algo.png";
+import ens from "../../assets/partners/ens.png";
+import syn from "../../assets/partners/syn.png";
+import solana from "../../assets/partners/solana.png";
 import "./Partners.css";
 const Partners = () => {
   return (
@@ -11,9 +18,21 @@ const Partners = () => {
           <div className="my-3">
             <div className="row">
               <div className="col-12 col-md-6">
-                <span className="partners-header ">Aurora</span>
+                <span className="partners-header ">
+                  {" "}
+                  <img
+                    src={aurora}
+                    className="img-fluid"
+                    alt=""
+                    height="50"
+                    width="40"
+                  />
+                  {"  "}
+                  Aurora
+                </span>
               </div>
               <div className="col-12 col-md-6"></div>
+
               <div className="col-12 col-md-6">
                 Aurora will be benefited by higher usability and adoption as we
                 plan to make it one of the first blockchains/platforms where
@@ -66,7 +85,17 @@ const Partners = () => {
           </div>
           <div className="my-3">
             <div className="col-12 col-md-6">
-              <span className="partners-header">ETH2.0</span>
+              <span className="partners-header">
+                {" "}
+                <img
+                  src={eth}
+                  className="img-fluid"
+                  alt=""
+                  height="50"
+                  width="40"
+                />
+                {"  "}ETH2.0
+              </span>
             </div>
             <div className="col-12 col-md-6">
               ETH2.0 will be benefited by higher usability and adoption as we
@@ -78,7 +107,17 @@ const Partners = () => {
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
-                <span className="partners-header"> Protocol Labs</span>
+                <span className="partners-header">
+                  {" "}
+                  <img
+                    src={protocal}
+                    className="img-fluid"
+                    alt=""
+                    height="50"
+                    width="40"
+                  />
+                  {"  "}Protocol Labs
+                </span>
               </div>
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
@@ -90,7 +129,17 @@ const Partners = () => {
           </div>
           <div className="my-3">
             <div className="col-12 col-md-6">
-              <span className="partners-header">Algorand</span>
+              <span className="partners-header">
+                {" "}
+                <img
+                  src={algo}
+                  className="img-fluid"
+                  alt=""
+                  height="50"
+                  width="40"
+                />
+                {"  "}Algorand
+              </span>
             </div>
             <div className="col-12 col-md-6">
               Algorand will be benefited by higher usability and adoption as we
@@ -102,7 +151,17 @@ const Partners = () => {
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
-                <span className="partners-header"> ENS</span>
+                <span className="partners-header">
+                  {" "}
+                  <img
+                    src={ens}
+                    className="img-fluid"
+                    alt=""
+                    height="50"
+                    width="40"
+                  />
+                  {"  "} ENS
+                </span>
               </div>
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
@@ -113,7 +172,17 @@ const Partners = () => {
           </div>
           <div className="my-3">
             <div className="col-12 col-md-6">
-              <span className="partners-header">Synthetix</span>
+              <span className="partners-header">
+                {" "}
+                <img
+                  src={syn}
+                  className="img-fluid"
+                  alt=""
+                  height="50"
+                  width="40"
+                />
+                {"  "}Synthetix
+              </span>
             </div>
 
             <div className="col-12 col-md-6">
@@ -126,7 +195,17 @@ const Partners = () => {
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
-                <span className="partners-header">Solana</span>
+                <span className="partners-header">
+                  {" "}
+                  <img
+                    src={solana}
+                    className="img-fluid"
+                    alt=""
+                    height="50"
+                    width="40"
+                  />
+                  {"  "}Solana
+                </span>
               </div>
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
