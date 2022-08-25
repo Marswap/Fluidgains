@@ -4,7 +4,7 @@ import "./TopBanner.css";
 const TopBanner = () => {
   return (
     <div className="top-banner-background" id="#home">
-      <div className="container pt-0">
+      <div className="container">
         <div className="row">
           <div className="col-md-12 col-lg-6">
             <h1 className="top-banner-heading top-banner-font">

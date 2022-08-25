@@ -6,6 +6,7 @@ import algo from "../../assets/partners/algo.png";
 import ens from "../../assets/partners/ens.png";
 import syn from "../../assets/partners/syn.png";
 import solana from "../../assets/partners/solana.png";
+import ton from "../../assets/partners/ton.svg";
 import "./Partners.css";
 const Partners = () => {
   return (
@@ -213,6 +214,27 @@ const Partners = () => {
                 plan to make it one of the first blockchains where Fluidgains
                 will be launched.
               </div>
+            </div>
+          </div>
+          <div className="my-3">
+            <div className="col-12 col-md-6">
+              <span className="partners-header">
+                {" "}
+                <img
+                  src={ton}
+                  className="img-fluid"
+                  alt=""
+                  height="50"
+                  width="40"
+                />
+                {"  "}Ton
+              </span>
+            </div>
+
+            <div className="col-12 col-md-6">
+              TON will be benefited by higher usability and adoption as we plan
+              to make it one of the first blockchains where Fluidgains will be
+              launched.
             </div>
           </div>
         </div>

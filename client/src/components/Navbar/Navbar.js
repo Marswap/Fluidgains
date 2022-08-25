@@ -3,20 +3,13 @@ import logo from "../../assets/img/logo.png";
 import "./Navbar.css";
 import Modal from "./form";
 const Navbar = () => {
-
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid mx-4">
-          <img
-            src={logo}
-            className="img-fluid"
-            alt=""
-            height="100"
-            width="100"
-          />
+          <img src={logo} className="img-fluid" alt="" height="60" width="60" />
           <button
             class="navbar-toggler"
             type="button"
@@ -50,8 +43,13 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" aria-current="page" href="/#partners">
+                <a class="nav-link" aria-current="page" href="/#features">
                   Key Features
+                </a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="/#partners">
+                  Partners
                 </a>
               </li>
 
@@ -69,14 +67,15 @@ const Navbar = () => {
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item mx-2">
                 <a class="btn glow-on-hover" aria-current="page" href>
-                  <button onClick={() => {
-          setModalOpen(true);
-        }}
-      >
-        Early access
-      </button>
+                  <button
+                    onClick={() => {
+                      setModalOpen(true);
+                    }}
+                  >
+                    Early access
+                  </button>
 
-      {modalOpen && <Modal setOpenModal={setModalOpen} />}
+                  {modalOpen && <Modal setOpenModal={setModalOpen} />}
                 </a>
               </li>
             </ul>
