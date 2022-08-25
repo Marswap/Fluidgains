@@ -31,7 +31,7 @@ const Vault = () => {
 
                     <div className="box_">
 
-                        <div className="name">
+                        <div className="col1">
                             <div className="col-name"><h3>NAME</h3></div>
                             <div><h5>DUST</h5></div>
                             <div><h5>SOL</h5></div>
@@ -88,7 +88,7 @@ const Vault = () => {
                     </div>
                     <h1>Swaps Vaults</h1>
                     <div className="box_">
-                        <div className="name">
+                        <div className="col1">
                             <div className="col-name">
                                 <h3>NAME</h3></div>
                             <div><h5>BTC Perpetual</h5></div>
@@ -150,7 +150,7 @@ const Vault = () => {
 
                     <h1>Swaptions Vaults</h1>
                     <div className="box_">
-                        <div className="name">
+                        <div className="col1">
 
                             <div className="col-name"><h3>NAME</h3></div>
                             <div><h5>BTC</h5></div>
@@ -212,7 +212,7 @@ const Vault = () => {
 
                     <h1>Leveraged Tokens</h1>
                     <div className="box_">
-                        <div className="name">
+                        <div className="col1">
 
                             <div className="col-name"><h3>NAME</h3></div>
                             <div><h5>5x, 10x and 25x BTC  ⏫</h5></div>

@@ -4,7 +4,7 @@ import logo from "../../assets/img/logo.png";
 import twit_icon from "../../assets/icon/logo-twitter.svg";
 import telgm_icon from "../../assets/icon/telegran.svg";
 import discord_icon from "../../assets/icon/logo-discord.svg";
-import insta_icon from "../../assets/icon/logo-instagram.svg";
+// import insta_icon from "../../assets/icon/logo-instagram.svg";
 import git_icon from "../../assets/icon/logo-github.svg";
 
 const Footer = () => {
@@ -48,7 +48,8 @@ const Footer = () => {
 
 
                 </div>
-                    <div className="social-links" >
+
+                <div className="social--links" >
                     <a href="https://twitter.com/fluidgains"> 
                         <img className="Social_icon" src={twit_icon} alt="Twitter Link" />
                     </a>
