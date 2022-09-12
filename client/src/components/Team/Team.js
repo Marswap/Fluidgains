@@ -5,7 +5,6 @@ import Avatar2 from "../../assets/Avatar/VaibhavSingh.jpg";
 import Avatar3 from "../../assets/Avatar/Suhas_Malhotra.png";
 import Avatar4 from "../../assets/Avatar/Sumrit_Arora.png";
 import Avatar5 from "../../assets/Avatar/Dipanshu_.png";
-import github_icon from "../../assets/icon/icon-github.svg";
 import linkedIn_icon from "../../assets/icon/icon-linkedin.svg";
 
 // assets/Avatar/Kunal Tapse.jpg
@@ -23,7 +22,7 @@ const Team = () => {
             <div className="main-box">
                 <div className="member-card">
                     <div className="Avatar-box">
-                        <img className="display-img" src={Avatar1} alt="Profile Image" />
+                        <img className="display-img" src={Avatar1} alt="Profile" />
 
                     </div>
                     <div className="Avatar-name">
@@ -45,7 +44,7 @@ const Team = () => {
 
                 <div className="member-card">
                     <div className="Avatar">
-                        <img className="display-img" src={Avatar2} alt="Profile Image" />
+                        <img className="display-img" src={Avatar2} alt="Profile" />
 
                     </div>
                     <div className="Avatar-name">
@@ -68,7 +67,7 @@ const Team = () => {
 
                 <div className="member-card">
                     <div className="Avatar">
-                        <img className="display-img" src={Avatar3} alt="Profile Image" />
+                        <img className="display-img" src={Avatar3} alt="Profile" />
 
                     </div>
                     <div className="Avatar-name">
@@ -91,7 +90,7 @@ const Team = () => {
 
                 <div className="member-card">
                     <div className="Avatar">
-                        <img className="display-img" src={Avatar4} alt="Profile Image" />
+                        <img className="display-img" src={Avatar4} alt="Profile" />
 
                     </div>
                     <div className="Avatar-name">
@@ -113,7 +112,7 @@ const Team = () => {
 
                 <div className="member-card">
                     <div className="Avatar">
-                        <img className="display-img" src={Avatar5} alt="Profile Image" />
+                        <img className="display-img" src={Avatar5} alt="Profile" />
 
                     </div>
                     <div className="Avatar-name">
