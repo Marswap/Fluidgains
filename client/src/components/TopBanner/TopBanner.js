@@ -29,13 +29,15 @@ const TopBanner = () => {
                   </a>
                 </div>
                 <div className="col-12 col-md-9 top-banner-learn">
-                  <p className="mt-12 ">
-                    Learn More About Us
-                    <span className="ms-2">
-                      {" "}
-                      <RightCircleOutlined style={{ fontSize: "50px" }} />
-                    </span>
-                  </p>
+                  <a href="/#about" style={{ color: "white" }}>
+                    <p className="mt-12 ">
+                      Learn More About Us
+                      <span className="ms-2">
+                        {" "}
+                        <RightCircleOutlined style={{ fontSize: "50px" }} />
+                      </span>
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>

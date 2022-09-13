@@ -2,8 +2,8 @@ import React from "react";
 import "./About.css";
 const About = () => {
   return (
-    <div className="about-background">
-      <div className="container" id="about">
+    <div className="about-background" id="about">
+      <div className="container">
         <div className="row">
           <div className="col-12">
             <p className="about-number pb-0 mb-0">03</p>
