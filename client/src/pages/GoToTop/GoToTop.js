@@ -49,7 +49,7 @@ const Wrapper = styled.section`
     width: 3rem;
     height: 3rem;
     color: #fff;
-    background-color: black;
+    background-color: #4628ff;
     box-shadow: red;
     border-radius: 50%;
     position: fixed;
