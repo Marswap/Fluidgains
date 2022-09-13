@@ -23,13 +23,13 @@ const TopBanner = () => {
             </p>
             <div className="container-fluid p-0">
               <div className="row">
-                <div className="col-3">
+                <div className="col-12 col-md-3">
                   <a className="btn btn-early-access" href>
                     Get Started
                   </a>
                 </div>
-                <div className="col-9 top-banner-learn">
-                  <p className="mt-2">
+                <div className="col-12 col-md-9 top-banner-learn">
+                  <p className="mt-12 ">
                     Learn More About Us
                     <span className="ms-2">
                       {" "}

@@ -23,6 +23,7 @@
 }
 
 .top-banner-para {
+  text-align: justify;
   font-family: "Clash Display", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -38,4 +39,16 @@
 }
 .top-banner-learn:hover {
   color: #4628ff;
+}
+
+@media (max-width: 768px) {
+  .top-banner-background {
+    background-size: 89% 89%;
+  }
+  .top-banner-large-header {
+    font-size: 30px;
+  }
+  .top-banner-learn {
+    margin-top: 10px;
+  }
 }

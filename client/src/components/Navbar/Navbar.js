@@ -7,8 +7,16 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container pt-1 ps-2">
-          <img src={logo} className="img-fluid" alt="" height="60" width="45" />
-          <p className="logo-name p-0">LUID GAINS</p>
+          <a href="/" className="d-flex">
+            <img
+              src={logo}
+              className="img-fluid"
+              alt=""
+              height="60"
+              width="45"
+            />
+            <p className="logo-name p-0">LUID GAINS</p>
+          </a>
           <button
             class="navbar-toggler"
             type="button"

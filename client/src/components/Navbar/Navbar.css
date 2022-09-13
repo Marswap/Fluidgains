@@ -1,8 +1,12 @@
 @import url("http://fonts.cdnfonts.com/css/clash-display");
+a {
+  text-decoration: none !important;
+}
 .navbar {
   background-color: #0f0f12;
   box-shadow: 15px 0 40px 0 rgb(0 0 0 / 95%);
 }
+
 .logo-name {
   text-transform: uppercase;
   font-family: "Clash Display", sans-serif;

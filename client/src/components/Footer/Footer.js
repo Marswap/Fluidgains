@@ -8,69 +8,65 @@ import discord_icon from "../../assets/icon/logo-discord.svg";
 import git_icon from "../../assets/icon/logo-github.svg";
 
 const Footer = () => {
-    return (
-        <footer className="box">
-            <div className="style-padding"></div>
-            <div className="inner-box">
-                <div className="left-logo-hidden-box">
-                    <img className="footer-logo-l" src={logo} alt="logo" />
-                </div>
-
-                <div className="footer-links-box">
-                    <ul>
-                        <li>About</li>
-                        <li>Key Features</li>
-                        <li>Early Access</li>
-                        <li>Team</li>
-
-                    </ul>
-                    <ul>
-                        <li>Contact</li>
-                        <li>Investors</li>
-                        <li>Traders</li>
-                        <li>Speculators</li>
-
-                    </ul>
-                    <ul>
-                        <li>Liquidity Providers</li>
-                        <li>Hedgers</li>
-                        <li>Vaults</li>
-                        <li>Vesting</li>
-
-                    </ul>
-
-                    <ul>
-
-                        <div>
-                            <img className="footer-logo-r" src={logo} alt="logo" />
-                        </div>
-                    </ul>
-
-
-                </div>
-
-                <div className="social--links" >
-                    <a href="https://twitter.com/fluidgains"> 
-                        <img className="Social_icon" src={twit_icon} alt="Twitter Link" />
-                    </a>
-                    <a href="https://t.me/fluidgains">
-                        <img className="Social_icon" src={telgm_icon} alt="Telegram Link" />
-                    </a>
-                    <a href="https://discord.com/invite/5F6DHU3gw9">
-                        <img className="Social_icon" src={discord_icon} alt="Discord Link" />
-                    </a>
-
-                    <a href="https://github.com/Marswap/Fluidgains">
-                        <img className="Social_icon" src={git_icon} alt="Github Link" />
-                    </a>
-
-
-                </div>
-
+  return (
+    <footer className="box">
+      <div className="inner-box">
+        <div className="footer-links-box">
+          <div>
+            <div className="d-flex">
+              <img className="footer-logo-r" src={logo} alt="logo" />
             </div>
+            <div className="social--links">
+              <a href="https://twitter.com/fluidgains">
+                <img
+                  className="Social_icon"
+                  src={twit_icon}
+                  alt="Twitter Link"
+                />
+              </a>
+              <a href="https://t.me/fluidgains">
+                <img
+                  className="Social_icon"
+                  src={telgm_icon}
+                  alt="Telegram Link"
+                />
+              </a>
+              <a href="https://discord.com/invite/5F6DHU3gw9">
+                <img
+                  className="Social_icon"
+                  src={discord_icon}
+                  alt="Discord Link"
+                />
+              </a>
 
-        </footer>
-    );
+              <a href="https://github.com/Marswap/Fluidgains">
+                <img className="Social_icon" src={git_icon} alt="Github Link" />
+              </a>
+            </div>
+          </div>
+          <ul>
+            <li>About</li>
+            <li>Key Features</li>
+            <li>Early Access</li>
+            <li>Team</li>
+            <li>Contact</li>
+            <li>Investors</li>
+            <li>Traders</li>
+            <li>Speculators</li>
+          </ul>
+
+          <ul>
+            <li>Liquidity Providers</li>
+            <li>Hedgers</li>
+            <li>Vaults</li>
+            <li>Vesting</li>
+          </ul>
+
+          <ul></ul>
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
