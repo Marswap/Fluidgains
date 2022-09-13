@@ -2,11 +2,15 @@ import React from "react";
 import "./About.css";
 const About = () => {
   return (
-    <div>
+    <div className="about-background">
       <div className="container" id="about">
         <div className="row">
           <div className="col-12">
-            <h1 className="text-center">What is a Vault in DeFi?</h1>
+            <p className="about-number pb-0 mb-0">03</p>
+            <h1 className="text-center about-header">
+              What is a Vault <br />
+              in DeFi?
+            </h1>
           </div>
           <div className="col-12 mt-3 about-para">
             <p>

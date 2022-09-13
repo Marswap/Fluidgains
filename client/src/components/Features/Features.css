@@ -1,6 +1,16 @@
+.features-background {
+  background-image: url("https://assets.website-files.com/624f34ee3b91afefdf14076f/625062483b253024a04f9e6c_image-features-blockchain-template.png");
+  background-color: rgb(15, 15, 18);
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+  background-size: 800px 90%;
+}
+
 .feature-list {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
   font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: 500;
+  color: white;
 }

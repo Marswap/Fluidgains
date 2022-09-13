@@ -10,13 +10,16 @@ import ton from "../../assets/partners/ton.svg";
 import "./Partners.css";
 const Partners = () => {
   return (
-    <div>
+    <div className="partners-background">
       <div className="container pt-0" id="partners">
         <div className="row pb-3">
           <div className="col-12 mt-5">
-            <h1 className="text-center">Partners</h1>
+            <p className="partners-number p-0 m-0">04</p>
+            <h1 className="partners-heading">
+              Partners <span style={{ color: "#4628ff" }}>.</span>
+            </h1>
           </div>
-          <div className="my-3">
+          <div>
             <div className="row">
               <div className="col-12 col-md-6">
                 <span className="partners-header ">
@@ -29,12 +32,12 @@ const Partners = () => {
                     width="40"
                   />
                   {"  "}
-                  Aurora
+                  <span className="partners-p-heading">Aurora</span>
                 </span>
               </div>
               <div className="col-12 col-md-6"></div>
 
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 partners-text">
                 Aurora will be benefited by higher usability and adoption as we
                 plan to make it one of the first blockchains/platforms where
                 Fluidgains will be launched.
@@ -42,25 +45,25 @@ const Partners = () => {
             </div>
           </div>
 
-          <div className="my-3">
+          <div>
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
-                <span className="partners-header">zkTech</span>
+                <span className="partners-p-heading">zkTech</span>
               </div>
               <div className="col-12 col-md-6"></div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 partners-text">
                 Zero knowledge protocols like Aztec and ZKSK will be benefited
                 as we plan implement them to eliminate risks of frontrunner and
                 backrunner MEV bots.
               </div>
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="col-12 col-md-6">
-              <span className="partners-header">Defi</span>
+              <span className="partners-p-heading">Defi</span>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 partners-text">
               Defi in general will derive benefits from Fluidgains we as our
               protocol is geared toward bringing sophisticated risk-adjusted
               yield generator and aggregator with a simplified layman-friendly
@@ -69,14 +72,14 @@ const Partners = () => {
               providers.
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
-                <span className="partners-header">DAOs</span>
+                <span className="partners-p-heading">DAOs</span>
               </div>
               <div className="col-12 col-md-6"></div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 partners-text">
                 Most DAO tokens will derive benefits from Fluidgains due to
                 increased broader investors' demands for their protocol tokens
                 as Fluidgains will feature staking as a one of the ways to
@@ -84,7 +87,7 @@ const Partners = () => {
               </div>
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="col-12 col-md-6">
               <span className="partners-header">
                 {" "}
@@ -95,16 +98,17 @@ const Partners = () => {
                   height="50"
                   width="40"
                 />
-                {"  "}ETH2.0
+                {"  "}
+                <span className="partners-p-heading">ETH2.0</span>
               </span>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 partners-text">
               ETH2.0 will be benefited by higher usability and adoption as we
               plan to make it one of the first blockchains where Fluidgains will
               be launched.
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
@@ -117,18 +121,19 @@ const Partners = () => {
                     height="50"
                     width="40"
                   />
-                  {"  "}Protocol Labs
+                  {"  "}
+                  <span className="partners-p-heading">Protocol Labs</span>
                 </span>
               </div>
               <div className="col-12 col-md-6"></div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 partners-text">
                 Protocol Labs will be benefited as we plan to leverage both IPFS
                 and Filecoin (their stack) for permanent decentralized data
                 storage extensively.
               </div>
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="col-12 col-md-6">
               <span className="partners-header">
                 {" "}
@@ -139,16 +144,16 @@ const Partners = () => {
                   height="50"
                   width="40"
                 />
-                {"  "}Algorand
+                {"  "} <span className="partners-p-heading">Algorand</span>
               </span>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 partners-text">
               Algorand will be benefited by higher usability and adoption as we
               plan to make it one of the first blockchains/platforms where
               Fluidgains will be launched.
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
@@ -161,17 +166,17 @@ const Partners = () => {
                     height="50"
                     width="40"
                   />
-                  {"  "} ENS
+                  {"  "} <span className="partners-p-heading">ENS</span>
                 </span>
               </div>
               <div className="col-12 col-md-6"></div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 partners-text">
                 We will be using ENS domain names for mirroring our defi
                 protocol web app.
               </div>
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="col-12 col-md-6">
               <span className="partners-header">
                 {" "}
@@ -182,17 +187,17 @@ const Partners = () => {
                   height="50"
                   width="40"
                 />
-                {"  "}Synthetix
+                {"  "} <span className="partners-p-heading">Synthetix</span>
               </span>
             </div>
 
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 partners-text">
               Fluidgins will employ 5x, 10x and 25x leveraged derivatives of
               Synthetix/Kwenta to boost yields for its users/investors and
               liquidity providers.
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="row">
               <div className="col-12 col-md-6"></div>
               <div className="col-12 col-md-6">
@@ -205,18 +210,18 @@ const Partners = () => {
                     height="50"
                     width="40"
                   />
-                  {"  "}Solana
+                  {"  "} <span className="partners-p-heading">Solana</span>
                 </span>
               </div>
               <div className="col-12 col-md-6"></div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 partners-text">
                 Solana will be benefited by higher usability and adoption as we
                 plan to make it one of the first blockchains where Fluidgains
                 will be launched.
               </div>
             </div>
           </div>
-          <div className="my-3">
+          <div>
             <div className="col-12 col-md-6">
               <span className="partners-header">
                 {" "}
@@ -227,11 +232,11 @@ const Partners = () => {
                   height="50"
                   width="40"
                 />
-                {"  "}Ton
+                {"  "} <span className="partners-p-heading">Ton</span>
               </span>
             </div>
 
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6 partners-text">
               TON will be benefited by higher usability and adoption as we plan
               to make it one of the first blockchains where Fluidgains will be
               launched.

@@ -1,5 +1,30 @@
+.about-background {
+  background-image: url("https://assets.website-files.com/624f34ee3b91afefdf14076f/625472192d81788e672029f7_image-bg-team-blockchain-template.png");
+  background-color: rgb(15, 15, 18);
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+  background-size: 30% 30%;
+  background-position: bottom left;
+}
 .about-para {
-  font-size: 16px;
-  text-align: justify;
-  text-justify: inter-word;
+  color: #c5c5ca;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 400;
+}
+.about-para p {
+  font-size: 20px;
+}
+.about-header {
+  text-transform: uppercase;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 800;
+  font-size: 90px;
+  color: white;
+}
+.about-number {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #4628ff;
+  padding-left: 230px;
 }

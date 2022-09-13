@@ -1,35 +1,50 @@
 import React from "react";
-import coin from "../../assets/partners/coin.png";
+import { CheckOutlined } from "@ant-design/icons";
 import "./Features.css";
 const Features = () => {
   return (
-    <div>
-      <div className="container" id="features">
-        <div className="row">
-          <div className="col-12">
-            <h1 className="text-center">Key Features</h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12 col-md-6 my-auto">
-            <p className="feature-list">
-              • Universal Crypto Derivatives Aggregator{" "}
-            </p>
-            <p className="feature-list">
-              • Guaranteed Best APYs and Preferred Sharpe Ratios
-            </p>
-            <p className="feature-list">
-              • Matchmaking Automated Yield Discovery based on your Risk-Return
-              profile
-            </p>
-            <p className="feature-list">
-              • Censorship resistant Decentralized Peer-to-Peer Crypto
-              Derivatives
-            </p>
-          </div>
-          <div className="col-12 col-md-6">
-            <img className="img-fluid" src={coin} alt="" />
-          </div>
+    <div
+      className="container-fluid features-background"
+      style={{ backgroundColor: "rgb(15, 15, 18)" }}
+      id="features"
+    >
+      <div className="row">
+        <div className="col-4"></div>
+        <div className="col-md-12 col-lg-8" style={{ paddingBottom: "10vh" }}>
+          <p className="top-banner-small-header mb-0 ms-3">02</p>
+          <h1 className="top-banner-large-header">
+            A Crypto Protocol From Future
+            <span style={{ color: "#4628ff" }}>.</span>
+          </h1>
+          <p className="top-banner-para">Some of our key features are :-</p>
+          <p className="feature-list">
+            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+            <span className="ms-3">
+              Universal Crypto Derivatives Aggregator{" "}
+            </span>
+          </p>
+          <p className="feature-list">
+            {" "}
+            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+            <span className="ms-3">
+              Guaranteed Best APYs and Preferred Sharpe Ratios
+            </span>
+          </p>
+          <p className="feature-list">
+            {" "}
+            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+            <span className="ms-3">
+              {" "}
+              Matchmaking Automated Yield Discovery based on your Risk-Return
+            </span>
+          </p>
+          <p className="feature-list">
+            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+            <span className="ms-3">
+              {" "}
+              Censorship resistant Decentralized Peer-to-Peer Crypto Derivatives
+            </span>
+          </p>
         </div>
       </div>
     </div>
