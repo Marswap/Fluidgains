@@ -8,8 +8,7 @@ const About = () => {
           <div className="col-12">
             <p className="about-number pb-0 mb-0">03</p>
             <h1 className="text-center about-header">
-              What is a Vault <br />
-              in DeFi?
+              What is a Vault in DeFi?
             </h1>
           </div>
           <div className="col-12 mt-3 about-para">
