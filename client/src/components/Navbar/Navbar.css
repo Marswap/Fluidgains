@@ -43,3 +43,26 @@ a {
 .btn-early-access:hover {
   color: white;
 }
+
+@media (max-width: 1400px) and (min-width: 900px) {
+  .logo-name {
+    font-size: 18px;
+  }
+  .nav-link {
+    font-size: 13px !important;
+  }
+  .btn-early-access {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 900px) {
+  .logo-name {
+    font-size: 15px;
+  }
+  .nav-link {
+    font-size: 10px !important;
+  }
+  .btn-early-access {
+    font-size: 10px;
+  }
+}

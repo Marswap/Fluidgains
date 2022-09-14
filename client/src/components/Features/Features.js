@@ -4,47 +4,49 @@ import "./Features.css";
 const Features = () => {
   return (
     <div
-      className="container-fluid features-background"
       style={{ backgroundColor: "rgb(15, 15, 18)" }}
-      id="features"
+      className="features-background"
     >
-      <div className="row">
-        <div className="col-4"></div>
-        <div className="col-md-12 col-lg-8" style={{ paddingBottom: "10vh" }}>
-          <p className="top-banner-small-header mb-0 ms-3">02</p>
-          <h1 className="top-banner-large-header">
-            A Crypto Protocol From Future
-            <span style={{ color: "#4628ff" }}>.</span>
-          </h1>
-          <p className="top-banner-para">Some of our key features are :-</p>
-          <p className="feature-list">
-            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
-            <span className="ms-3">
-              Universal Crypto Derivatives Aggregator{" "}
-            </span>
-          </p>
-          <p className="feature-list">
-            {" "}
-            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
-            <span className="ms-3">
-              Guaranteed Best APYs and Preferred Sharpe Ratios
-            </span>
-          </p>
-          <p className="feature-list">
-            {" "}
-            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
-            <span className="ms-3">
+      <div className="container-fluid" id="features">
+        <div className="row">
+          <div className="col-4"></div>
+          <div className="col-md-12 col-lg-8" style={{ paddingBottom: "10vh" }}>
+            <p className="top-banner-small-header mb-0 ms-3">02</p>
+            <h1 className="top-banner-large-header">
+              A Crypto Protocol From Future
+              <span style={{ color: "#4628ff" }}>.</span>
+            </h1>
+            <p className="top-banner-para">Some of our key features are :-</p>
+            <p className="feature-list">
+              <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+              <span className="ms-3">
+                Universal Crypto Derivatives Aggregator{" "}
+              </span>
+            </p>
+            <p className="feature-list">
               {" "}
-              Matchmaking Automated Yield Discovery based on your Risk-Return
-            </span>
-          </p>
-          <p className="feature-list">
-            <CheckOutlined style={{ fontSize: "40px" }} />{" "}
-            <span className="ms-3">
+              <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+              <span className="ms-3">
+                Guaranteed Best APYs and Preferred Sharpe Ratios
+              </span>
+            </p>
+            <p className="feature-list">
               {" "}
-              Censorship resistant Decentralized Peer-to-Peer Crypto Derivatives
-            </span>
-          </p>
+              <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+              <span className="ms-3">
+                {" "}
+                Matchmaking Automated Yield Discovery based on your Risk-Return
+              </span>
+            </p>
+            <p className="feature-list">
+              <CheckOutlined style={{ fontSize: "40px" }} />{" "}
+              <span className="ms-3">
+                {" "}
+                Censorship resistant Decentralized Peer-to-Peer Crypto
+                Derivatives
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
