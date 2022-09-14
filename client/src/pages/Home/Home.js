@@ -5,7 +5,7 @@ import Partners from "../../components/Partners/Partners";
 import Footer from "../../components/Footer/Footer";
 import Team from "../../components/Team/Team";
 import Features from "../../components/Features/Features";
-
+import Contact from "../../components/Contact/Contact";
 const Home = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ const Home = () => {
       <About />
       <Partners />
       <Team />
+      <Contact />
       <Footer />
     </div>
   );

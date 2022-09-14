@@ -10,8 +10,8 @@ import ton from "../../assets/partners/ton.svg";
 import "./Partners.css";
 const Partners = () => {
   return (
-    <div className="partners-background">
-      <div className="container pt-0" id="partners">
+    <div className="partners-background" id="partners">
+      <div className="container pt-0">
         <div className="row pb-3">
           <div className="col-12 mt-5">
             <p className="partners-number p-0 m-0">04</p>
