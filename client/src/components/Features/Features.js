@@ -35,7 +35,8 @@ const Features = () => {
               <CheckOutlined style={{ fontSize: "40px" }} />{" "}
               <span className="ms-3">
                 {" "}
-                Matchmaking Automated Yield Discovery based on your Risk-Return
+                Matchmaking Automated Yield Discovery based on your Your
+                Risk-Return Profile
               </span>
             </p>
             <p className="feature-list">
